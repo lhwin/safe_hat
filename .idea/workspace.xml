@@ -40,15 +40,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="787" column="8" lean-forward="true" selection-start-line="787" selection-start-column="8" selection-end-line="787" selection-end-column="8" />
+            <state relative-caret-position="456">
+              <caret line="789" lean-forward="true" selection-start-line="789" selection-end-line="789" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/tiny_yolo_anchors.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -111,6 +106,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/keras-yolo3/yolov3.cfg" />
       </list>
     </option>
@@ -203,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550578696761</updated>
       <workItem from="1550578698931" duration="125000" />
-      <workItem from="1550625029145" duration="987000" />
+      <workItem from="1550625029145" duration="1267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1969000" />
+    <option name="totallyTimeSpent" value="2249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -322,10 +318,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="787" column="8" lean-forward="true" selection-start-line="787" selection-start-column="8" selection-end-line="787" selection-end-column="8" />
+        <state relative-caret-position="456">
+          <caret line="789" lean-forward="true" selection-start-line="789" selection-end-line="789" />
         </state>
       </provider>
     </entry>
