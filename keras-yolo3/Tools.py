@@ -15,5 +15,5 @@ def predict(img, target_size=(224,224),classes=['bicycle','motor']):
     return pred,score
 
 def crop_image(image,box):
-    src = image[int(box[1]):int(box[3]),int(box[0]):int(box[2])]
+    src = image[int(box[0]):int(box[2]),int(box[1]):int(box[3])]
     return src
