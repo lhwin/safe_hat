@@ -5,10 +5,8 @@ if current_path.endswith(path_suffix):
     parent_path = current_path.rsplit(path_suffix, 1)[0]
     os.chdir(parent_path)
 
-from yolo_detect.yolo import YOLO
-from yolo_detect.detect_video import detect_video
-
-__author__ = 'sliu'
+from yolo import YOLO
+from detect_video import detect_video
 
 if __name__ == '__main__':
     video_file_name = '41琉璃河ch0_CHANNEL0_20180108_11_56_50'

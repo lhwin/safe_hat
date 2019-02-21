@@ -1,6 +1,6 @@
 import os
-from yolo_detect.detect_image import detect_image
-from yolo_detect.yolo import YOLO
+from detect_image import detect_image
+from yolo import YOLO
 
 current_path = os.path.dirname(os.path.abspath(__file__))
 path_suffix = '/apps'
