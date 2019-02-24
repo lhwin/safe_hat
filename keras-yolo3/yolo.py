@@ -12,7 +12,6 @@ from keras import backend as K
 from keras.models import load_model
 from keras.layers import Input
 from PIL import Image, ImageFont, ImageDraw
-from Tools import crop_image,predict
 from yolo3.model import yolo_eval, yolo_body, tiny_yolo_body
 from yolo3.utils import letterbox_image
 import os
@@ -110,11 +109,11 @@ class YOLO(object):
             new_image_size = (image.width - (image.width % 32),
                               image.height - (image.height % 32))
             boxed_image = letterbox_image(image, new_image_size)
-        image_data1 = np.array(boxed_image, dtype='float32')
+        image_data = np.array(boxed_image, dtype='float32')
 
         print(image_data.shape)
-        image_data1 /= 255.
-        image_data = np.expand_dims(image_data1, 0)  # Add batch dimension.
+        image_data /= 255.
+        image_data = np.expand_dims(image_data, 0)  # Add batch dimension.
 
         out_boxes, out_scores, out_classes = self.sess.run(
             [self.boxes, self.scores, self.classes],
@@ -134,8 +133,6 @@ class YOLO(object):
             predicted_class = self.class_names[c]
             box = out_boxes[i]
             score = out_scores[i]
-            img = crop_image(image_data1, box)
-            predicted_class,score = predict(img)
             label = '{} {:.2f}'.format(predicted_class, score)
             draw = ImageDraw.Draw(image)
             label_size = draw.textsize(label, font)

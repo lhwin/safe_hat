@@ -1,0 +1,20 @@
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/001.jpg 128,49,177,115,0 177,95,215,143,0 15,169,37,198,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/004.jpg 56,147,87,185,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/005.jpg 53,139,89,176,0 1,170,15,196,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/006.jpg 82,140,115,181,0 1,168,27,195,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/013.jpg 133,113,171,159,0 10,179,32,213,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/020.jpg 10,178,28,211,0 57,122,89,174,0 143,133,177,181,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/024.jpg 37,106,80,160,0 146,59,195,119,0 253,74,299,143,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/055.jpg 59,211,91,248,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/058.jpg 20,185,71,234,0 122,226,149,256,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/091.jpg 97,97,141,160,0 172,84,226,142,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/092.jpg 120,84,169,148,0 231,80,283,144,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/093.jpg 133,66,189,133,0 278,60,304,122,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/094.jpg 224,26,288,106,0 1,87,41,160,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/100.jpg 64,154,102,195,0 37,161,61,192,0 1,173,17,212,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/106.jpg 116,54,175,125,0 1,156,21,194,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/110.jpg 45,46,89,91,0 132,57,179,97,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/112.jpg 153,14,209,81,0 242,41,295,112,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/118.jpg 28,157,58,191,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/121.jpg 154,99,200,150,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/133.jpg 191,33,245,96,0

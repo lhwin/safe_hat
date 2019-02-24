@@ -1,0 +1,104 @@
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/002.jpg 237,1,291,78,0 21,163,45,195,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/003.jpg 26,154,54,193,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/007.jpg 11,158,37,196,0 113,119,155,160,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/008.jpg 194,87,241,147,0 13,153,43,189,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/009.jpg 226,78,281,141,0 19,154,50,187,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/010.jpg 37,142,70,181,0 280,60,304,115,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/011.jpg 53,141,89,184,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/012.jpg 115,120,151,165,0 2,180,23,209,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/014.jpg 207,73,262,135,0 47,171,85,209,0 1,167,18,199,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/015.jpg 261,63,304,131,0 1,160,20,196,0 56,164,89,200,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/016.jpg 1,152,25,189,0 76,163,102,202,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/017.jpg 15,150,42,190,0 93,155,121,195,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/018.jpg 26,141,64,192,0 100,147,135,192,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/019.jpg 26,133,63,183,0 121,146,155,196,0 69,171,91,206,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/021.jpg 74,114,121,163,0 153,124,196,180,0 1,145,19,189,0 20,179,40,209,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/022.jpg 78,97,121,154,0 186,114,237,173,0 135,151,161,195,0 32,161,57,199,0 3,142,29,190,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/023.jpg 105,82,153,148,0 230,88,277,156,0 12,133,67,180,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/025.jpg 42,99,99,156,0 169,39,226,106,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/026.jpg 65,77,123,140,0 196,3,269,77,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/027.jpg 112,57,186,121,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/028.jpg 158,26,224,102,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/029.jpg 180,1,264,72,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/030.jpg 167,98,209,147,0 245,1,304,63,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/031.jpg 207,90,261,144,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/032.jpg 248,66,301,125,0 1,157,29,198,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/033.jpg 268,47,304,116,0 1,157,40,201,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/034.jpg 10,146,48,192,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/035.jpg 36,95,72,146,0 224,54,283,126,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/036.jpg 255,38,304,116,0 53,90,100,145,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/037.jpg 66,64,122,128,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/038.jpg 192,32,280,122,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/039.jpg 47,227,71,260,0 206,150,254,195,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/040.jpg 20,232,43,256,0 171,175,210,210,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/041.jpg 15,229,41,262,0 140,189,186,224,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/042.jpg 133,198,171,234,1 257,170,288,209,1 15,230,38,264,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/043.jpg 17,229,44,260,0 122,198,157,231,1 208,183,248,217,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/044.jpg 200,221,239,250,1 45,272,78,295,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/045.jpg 55,202,97,236,1 127,227,162,261,1 188,217,227,254,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/046.jpg 39,203,72,238,1 164,181,204,233,0 213,201,248,238,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/047.jpg 64,170,112,223,1 153,217,185,247,0 262,128,286,180,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/048.jpg 39,226,63,256,1 135,96,201,175,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/049.jpg 196,18,282,121,1 39,217,68,250,1 70,234,100,264,0 27,233,41,250,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/050.jpg 39,205,69,240,0 231,164,280,226,0 133,201,164,228,0 98,179,134,224,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/051.jpg 124,156,171,209,1 174,183,214,226,0 38,192,75,236,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/052.jpg 249,97,284,178,0 17,264,31,279,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/053.jpg 93,148,137,203,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/054.jpg 177,107,241,178,1 58,226,84,259,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/056.jpg 198,197,237,233,1 44,202,74,242,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/057.jpg 33,195,76,237,0 146,218,184,246,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/060.jpg 191,17,264,90,0 7,175,43,222,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/061.jpg 20,163,53,207,0 231,1,301,62,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/062.jpg 23,167,61,215,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/063.jpg 3,146,22,192,0 29,159,62,204,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/064.jpg 1,138,31,187,0 43,157,79,208,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/065.jpg 1,129,40,175,0 82,155,125,203,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/066.jpg 14,122,53,168,0 89,142,137,199,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/067.jpg 61,84,105,148,0 134,122,186,178,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/069.jpg 88,3,147,83,0 137,59,180,125,0 187,99,233,151,0 1,108,32,162,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/070.jpg 18,100,61,153,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/071.jpg 232,57,286,124,0 161,29,217,108,0 50,76,96,135,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/072.jpg 179,1,251,72,0 70,71,123,138,0 25,146,49,181,0 2,191,18,219,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/073.jpg 223,1,290,71,0 83,44,132,108,0 38,133,72,179,0 5,181,31,217,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/074.jpg 126,30,180,111,0 15,183,45,222,0 77,123,102,171,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/075.jpg 170,1,233,74,0 106,108,145,160,0 28,173,55,208,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/076.jpg 219,1,277,71,0 123,84,176,147,0 33,172,58,208,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/077.jpg 170,82,221,145,0 43,164,66,200,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/078.jpg 212,57,274,119,0 61,171,86,207,0 1,173,19,205,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/079.jpg 61,130,91,177,0 148,137,183,184,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/080.jpg 169,124,207,166,0 69,128,104,172,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/081.jpg 1,132,32,186,0 83,108,119,156,0 194,116,239,163,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/082.jpg 3,127,48,184,0 125,100,167,155,0 237,106,283,152,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/083.jpg 14,107,64,167,0 154,86,204,144,0 259,88,304,154,0 105,144,137,181,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/084.jpg 119,43,188,126,0 198,111,245,163,0 67,148,102,200,0 7,173,37,208,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/085.jpg 179,24,246,107,0 240,98,290,156,0 80,144,116,186,0 26,165,53,202,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/086.jpg 237,3,304,77,0 92,127,129,173,0 23,163,54,197,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/087.jpg 127,125,167,167,0 28,152,64,188,0 1,158,15,190,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/088.jpg 146,111,192,160,0 3,154,29,189,0 56,153,86,189,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/089.jpg 162,95,210,148,0 2,145,27,190,0 69,139,102,182,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/090.jpg 29,119,69,174,0 94,127,140,171,0 236,66,295,132,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/095.jpg 239,14,304,90,0 1,21,55,106,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/096.jpg 123,1,210,76,0 25,165,56,211,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/097.jpg 239,1,299,66,0 129,22,197,112,0 24,171,56,211,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/098.jpg 210,2,288,84,0 29,165,67,210,0 13,168,37,196,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/099.jpg 52,161,86,197,0 15,175,40,197,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/101.jpg 225,3,289,73,0 157,95,199,154,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/102.jpg 192,74,244,143,0 1,119,34,171,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/103.jpg 207,70,261,138,0 6,104,55,162,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/104.jpg 41,77,94,146,0 255,29,304,107,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/109.jpg 99,56,148,101,0 4,52,38,100,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/111.jpg 116,22,173,92,0 196,59,249,117,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/113.jpg 203,1,266,68,0 284,34,304,87,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/114.jpg 23,8,94,75,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/115.jpg 8,158,37,187,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/116.jpg 8,163,41,190,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/117.jpg 10,158,40,192,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/119.jpg 36,156,72,189,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/120.jpg 124,106,173,156,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/123.jpg 1,119,38,161,0 184,77,240,139,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/124.jpg 1,108,27,175,0 225,60,279,128,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/125.jpg 2,103,56,158,0 234,55,292,123,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/126.jpg 211,6,285,81,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/132.jpg 97,63,152,123,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/134.jpg 134,101,177,154,0 21,151,56,190,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/135.jpg 218,52,273,122,0 69,133,108,174,0 22,108,61,161,0

@@ -17,3 +17,16 @@ def predict(img, target_size=(224,224),classes=['bicycle','motor']):
 def crop_image(image,box):
     src = image[int(box[0]):int(box[2]),int(box[1]):int(box[3])]
     return src
+def vid_to_pic(save_path,video_path):
+    vc = cv2.VideoCapture(video_path)
+    c = 1
+    # set interval
+    t = 10
+    rval = vc.isOpened()
+    while rval:
+        rval, frame = vc.read()
+        if(c%t == 0):
+            cv2.imwrite(save_path + str(c/t) + '.jpg',frame)
+        c = c + 1
+    vc.release()
+path = 'F:\\pic\\71e\\'

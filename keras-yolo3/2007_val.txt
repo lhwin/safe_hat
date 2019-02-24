@@ -1,0 +1,5 @@
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/059.jpg 92,191,141,241,1 224,199,274,239,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/068.jpg 26,31,73,110,0 80,71,126,130,0 172,100,220,153,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/105.jpg 86,70,140,132,0 1,154,15,197,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/107.jpg 1,149,36,189,0 147,35,213,108,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/122.jpg 152,92,210,141,0 1,125,29,167,0
