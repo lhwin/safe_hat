@@ -29,12 +29,12 @@ def vid_to_pic(save_path,video_path):
 def crop_image(image,box):
     src = image[int(box[0]):int(box[2]),int(box[1]):int(box[3])]
     return src
-save_path = 'F:\\pic\\71e\\'
-video_path = 'F:\\\pic\\dfb32ba7dc1803ed317859daf4390d95.mp4'
-def rename(save_path):
+save_path = 'F:\\pic\\zhuaqu\\'
+video_path = 'F:\\\pic\\205402db6998a494730120868581eb68.mp4'
+def rename(save_path,a):
     pic_l = listdir(save_path)
     s_p = save_path
-    for i,y in enumerate(pic_l,start=1):
+    for i,y in enumerate(pic_l,start=a):
         if i < 10:
             str1 = '00'+str(i)
         elif i < 100 and i>=10:
@@ -52,4 +52,6 @@ if __name__ == '__main__':
     #     src1 = cv2.imread(s_p)
     #     x1 = cv2.resize(src=src1,dsize=(300,300))
     #     cv2.imwrite('F:\\pic\\resize\\'+str(time.time())+'.jpg',x1)
-    rename('F:\\pic\\71e\\')
+
+    # vid_to_pic(save_path,video_path)
+    rename(save_path,200)

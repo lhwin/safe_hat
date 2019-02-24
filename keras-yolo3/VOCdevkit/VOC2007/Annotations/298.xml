@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zhuaqu</folder>
+	<filename>298.jpg</filename>
+	<path>F:\pic\zhuaqu\298.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>398</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>217</xmin>
+			<ymin>19</ymin>
+			<xmax>348</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+</annotation>

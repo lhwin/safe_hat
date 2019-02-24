@@ -1,0 +1,26 @@
+<annotation>
+	<folder>process</folder>
+	<filename>189.jpg</filename>
+	<path>F:\pic\process\189.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>368</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>93</ymin>
+			<xmax>293</xmax>
+			<ymax>250</ymax>
+		</bndbox>
+	</object>
+</annotation>
