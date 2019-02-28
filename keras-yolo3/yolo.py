@@ -19,9 +19,9 @@ from keras.utils import multi_gpu_model
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'logs/000/trained_weights_final.h5',
+        "model_path": 'logs/000/512_trained_weights_final.h5',
         "anchors_path": 'model_data/yolo_anchors.txt',
-        "classes_path": 'model_data/voc_classes.txt',
+        "classes_path": 'model_data/voc_classes1.txt',
         "score" : 0.3,
         "iou" : 0.45,
         "model_image_size" : (416, 416),
@@ -211,8 +211,8 @@ def detect_video(yolo, video_path, output_path=""):
 
 import glob
 def detect_img(yolo):
-    path = "F:\\pic\\test\\*.jpg"
-    outdir = "F:\\pic\\save\\"
+    path = "D:\\pic\\test\\*.jpg"
+    outdir = "D:\\pic\\save\\"
     for jpgfile in glob.glob(path):
         img = Image.open(jpgfile)
         img = yolo.detect_image(img)

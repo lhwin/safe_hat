@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>no_hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>81</xmin>
+			<xmin>82</xmin>
 			<ymin>1</ymin>
-			<xmax>124</xmax>
+			<xmax>121</xmax>
 			<ymax>44</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>no_hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>198</xmin>
+			<xmin>197</xmin>
 			<ymin>1</ymin>
 			<xmax>236</xmax>
-			<ymax>50</ymax>
+			<ymax>48</ymax>
 		</bndbox>
 	</object>
 </annotation>

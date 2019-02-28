@@ -1,7 +1,7 @@
 <annotation>
-	<folder>zhuaqu</folder>
+	<folder>JPEGImages</folder>
 	<filename>228.jpg</filename>
-	<path>F:\pic\zhuaqu\228.jpg</path>
+	<path>F:\pic\pictures\old_scheme\VOCdevkit\VOC2007\JPEGImages\228.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,99 +12,87 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>no_hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>296</xmin>
-			<ymin>22</ymin>
-			<xmax>353</xmax>
-			<ymax>110</ymax>
+			<xmin>289</xmin>
+			<ymin>24</ymin>
+			<xmax>357</xmax>
+			<ymax>105</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>no_hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>469</xmin>
-			<ymin>4</ymin>
-			<xmax>502</xmax>
-			<ymax>33</ymax>
+			<xmin>410</xmin>
+			<ymin>38</ymin>
+			<xmax>471</xmax>
+			<ymax>114</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>407</xmin>
-			<ymin>33</ymin>
-			<xmax>483</xmax>
-			<ymax>120</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>161</xmin>
-			<ymin>11</ymin>
-			<xmax>212</xmax>
-			<ymax>69</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>23</xmin>
-			<ymin>10</ymin>
-			<xmax>70</xmax>
-			<ymax>69</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>93</xmin>
-			<ymin>15</ymin>
-			<xmax>114</xmax>
-			<ymax>44</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>364</xmin>
-			<ymin>8</ymin>
+			<xmin>360</xmin>
+			<ymin>2</ymin>
 			<xmax>397</xmax>
-			<ymax>44</ymax>
+			<ymax>41</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>551</xmin>
-			<ymin>1</ymin>
-			<xmax>564</xmax>
-			<ymax>22</ymax>
+			<xmin>157</xmin>
+			<ymin>14</ymin>
+			<xmax>214</xmax>
+			<ymax>59</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>11</ymin>
+			<xmax>71</xmax>
+			<ymax>60</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>14</ymin>
+			<xmax>118</xmax>
+			<ymax>45</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>468</xmin>
+			<ymin>2</ymin>
+			<xmax>496</xmax>
+			<ymax>36</ymax>
 		</bndbox>
 	</object>
 </annotation>

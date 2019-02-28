@@ -1,7 +1,7 @@
 <annotation>
-	<folder>process</folder>
+	<folder>71e</folder>
 	<filename>181.jpg</filename>
-	<path>F:\pic\process\181.jpg</path>
+	<path>F:\pic\71e\181.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>no_hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>117</xmin>
-			<ymin>245</ymin>
+			<xmin>125</xmin>
+			<ymin>243</ymin>
 			<xmax>148</xmax>
-			<ymax>277</ymax>
+			<ymax>272</ymax>
 		</bndbox>
 	</object>
 </annotation>

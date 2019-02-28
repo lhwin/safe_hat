@@ -1,7 +1,7 @@
 <annotation>
-	<folder>zhuaqu</folder>
+	<folder>JPEGImages</folder>
 	<filename>316.jpg</filename>
-	<path>F:\pic\zhuaqu\316.jpg</path>
+	<path>F:\pic\pictures\old_scheme\VOCdevkit\VOC2007\JPEGImages\316.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,39 +12,39 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>hat</name>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>229</ymin>
+			<xmax>107</xmax>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>209</ymin>
+			<xmax>282</xmax>
+			<ymax>246</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>257</xmin>
-			<ymin>98</ymin>
-			<xmax>285</xmax>
-			<ymax>127</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>236</xmin>
-			<ymin>205</ymin>
-			<xmax>279</xmax>
-			<ymax>260</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hat</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>79</xmin>
-			<ymin>225</ymin>
-			<xmax>113</xmax>
-			<ymax>266</ymax>
+			<ymin>104</ymin>
+			<xmax>287</xmax>
+			<ymax>125</ymax>
 		</bndbox>
 	</object>
 </annotation>

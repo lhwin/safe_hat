@@ -2,11 +2,338 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffcce49-b45c-47f9-ad08-07fb71e611de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/keras-yolo3/data_augmentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keras-yolo3/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras-yolo3/model_data/voc_classes1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras-yolo3/tools/delet_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras-yolo3/tools/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras-yolo3/yolo3/yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras-yolo3/yolov3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/2007_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/2007_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/2007_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/2007_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/2007_val.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/2007_val.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/002.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/003.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/004.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/004.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/005.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/006.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/007.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/008.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/008.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/009.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/010.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/011.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/012.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/013.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/014.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/015.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/016.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/017.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/018.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/019.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/020.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/021.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/022.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/023.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/024.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/024.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/025.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/026.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/026.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/027.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/028.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/028.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/029.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/030.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/031.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/032.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/032.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/033.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/034.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/035.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/035.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/036.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/037.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/038.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/039.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/039.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/040.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/040.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/041.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/042.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/043.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/044.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/045.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/045.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/046.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/046.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/047.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/047.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/048.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/049.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/050.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/050.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/051.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/051.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/052.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/053.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/053.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/054.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/055.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/055.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/056.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/056.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/057.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/058.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/058.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/059.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/059.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/060.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/061.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/062.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/063.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/064.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/065.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/066.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/067.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/067.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/068.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/068.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/069.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/070.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/071.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/072.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/073.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/073.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/074.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/075.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/076.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/077.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/078.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/078.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/079.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/080.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/081.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/082.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/082.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/083.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/084.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/085.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/085.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/086.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/087.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/088.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/089.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/090.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/090.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/091.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/092.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/093.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/094.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/095.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/095.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/096.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/097.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/098.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/099.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/100.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/101.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/102.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/103.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/104.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/105.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/106.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/107.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/107.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/109.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/110.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/110.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/111.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/112.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/113.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/114.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/115.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/116.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/117.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/118.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/119.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/121.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/122.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/123.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/124.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/125.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/126.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/130.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/131.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/132.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/132.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/133.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/134.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/135.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/135.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/136.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/136.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/137.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/137.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/138.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/138.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/139.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/139.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/140.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/140.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/141.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/141.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/142.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/142.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/143.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/143.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/144.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/144.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/145.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/145.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/146.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/146.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/147.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/147.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/148.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/148.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/149.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/149.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/150.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/150.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/151.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/151.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/152.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/152.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/153.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/153.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/154.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/154.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/155.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/155.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/156.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/156.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/157.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/157.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/158.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/158.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/159.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/159.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/160.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/161.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/162.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/163.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/164.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/165.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/165.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/166.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/166.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/167.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/167.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/168.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/168.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/169.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/169.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/170.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/170.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/171.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/171.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/172.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/172.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/173.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/173.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/174.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/174.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/175.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/175.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/176.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/176.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/177.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/177.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/178.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/178.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/179.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/179.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/180.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/180.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/181.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/181.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/182.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/183.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/184.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/184.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/185.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/185.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/186.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/186.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/187.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/187.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/188.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/189.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/189.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/190.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/191.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/192.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/192.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/193.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/193.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/194.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/194.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/195.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/195.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/196.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/196.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/197.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/197.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/200.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/200.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/201.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/201.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/202.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/202.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/203.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/203.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/204.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/204.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/205.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/205.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/206.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/206.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/207.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/207.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/208.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/209.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/209.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/210.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/210.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/211.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/211.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/212.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/212.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/213.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/213.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/214.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/214.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/216.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/216.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/217.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/217.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/218.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/218.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/219.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/219.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/220.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/220.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/221.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/221.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/222.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/222.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/223.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/223.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/224.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/224.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/225.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/225.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/226.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/226.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/227.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/227.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/228.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/228.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/229.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/229.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/230.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/230.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/231.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/231.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/232.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/232.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/233.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/234.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/235.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/236.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/236.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/237.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/237.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/238.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/238.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/239.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/239.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/242.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/242.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/246.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/246.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/247.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/247.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/248.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/248.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/250.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/250.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/251.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/251.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/252.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/252.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/253.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/253.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/254.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/254.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/255.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/256.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/256.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/257.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/257.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/258.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/258.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/259.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/260.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/260.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/261.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/261.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/262.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/263.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/265.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/265.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/267.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/267.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/268.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/269.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/269.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/270.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/270.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/273.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/273.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/275.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/275.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/276.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/276.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/277.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/279.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/279.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/280.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/280.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/281.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/281.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/282.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/282.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/283.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/283.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/284.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/284.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/285.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/285.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/286.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/286.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/287.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/288.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/288.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/289.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/289.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/290.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/290.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/291.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/291.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/293.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/293.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/294.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/295.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/295.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/297.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/297.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/298.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/298.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/299.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/299.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/300.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/302.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/303.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/304.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/305.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/305.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/306.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/306.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/307.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/307.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/308.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/308.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/309.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/309.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/310.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/310.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/311.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/312.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/312.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/313.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/314.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/314.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/315.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/315.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/316.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/316.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/318.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/318.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/320.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/322.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/322.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/323.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/323.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/324.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/324.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/325.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/326.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/326.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/327.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/327.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/328.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/328.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/331.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/331.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/332.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/332.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/334.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/335.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/335.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/336.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/data_augmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/data_augmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/detect_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/detect_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/detect_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/detect_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/model_data/yolo_anchors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/model_data/yolo_anchors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/run_yolo_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/run_yolo_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/run_yolo_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/run_yolo_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/tools/Tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/tools/Tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/voc_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/voc_annotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keras-yolo3/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras-yolo3/yolo3/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras-yolo3/yolo3/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,66 +342,104 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/safe_hat$convert.coverage" NAME="convert Coverage Results" MODIFIED="1550979788003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007" />
-    <SUITE FILE_PATH="coverage/safe_hat$Tools.coverage" NAME="Tools Coverage Results" MODIFIED="1550926705083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
-    <SUITE FILE_PATH="coverage/safe_hat$data_augmentation.coverage" NAME="data_augmentation Coverage Results" MODIFIED="1551026443235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
-    <SUITE FILE_PATH="coverage/safe_hat$vid_to_pic__1_.coverage" NAME="vid_to_pic (1) Coverage Results" MODIFIED="1551021298700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
-    <SUITE FILE_PATH="coverage/safe_hat$vid_to_pic.coverage" NAME="vid_to_pic Coverage Results" MODIFIED="1550969154733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
-    <SUITE FILE_PATH="coverage/safe_hat$train.coverage" NAME="train Coverage Results" MODIFIED="1550990521117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
-    <SUITE FILE_PATH="coverage/safe_hat$voc_annotation.coverage" NAME="voc_annotation Coverage Results" MODIFIED="1550979892708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
-    <SUITE FILE_PATH="coverage/safe_hat$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1551020958198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$convert.coverage" NAME="convert Coverage Results" MODIFIED="1551239262857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007" />
+    <SUITE FILE_PATH="coverage/safe_hat$delet_xml.coverage" NAME="delet_xml Coverage Results" MODIFIED="1551255023477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
+    <SUITE FILE_PATH="coverage/safe_hat$test.coverage" NAME="test Coverage Results" MODIFIED="1551294515492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
+    <SUITE FILE_PATH="coverage/safe_hat$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1551239297700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$yolov3.coverage" NAME="yolov3 Coverage Results" MODIFIED="1551323943789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1551096592835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$run_yolo_video.coverage" NAME="run_yolo_video Coverage Results" MODIFIED="1551339057816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
     <SUITE FILE_PATH="coverage/safe_hat$train_self.coverage" NAME="train_self Coverage Results" MODIFIED="1550990128690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$detect_video.coverage" NAME="detect_video Coverage Results" MODIFIED="1551279775604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$Tools.coverage" NAME="Tools Coverage Results" MODIFIED="1550926705083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
+    <SUITE FILE_PATH="coverage/safe_hat$data_augmentation.coverage" NAME="data_augmentation Coverage Results" MODIFIED="1551231980012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$run_yolo_image.coverage" NAME="run_yolo_image Coverage Results" MODIFIED="1551345320209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$vid_to_pic__1_.coverage" NAME="vid_to_pic (1) Coverage Results" MODIFIED="1551225566392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
+    <SUITE FILE_PATH="coverage/safe_hat$vid_to_pic.coverage" NAME="vid_to_pic Coverage Results" MODIFIED="1551263346012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3/tools" />
+    <SUITE FILE_PATH="coverage/safe_hat$train.coverage" NAME="train Coverage Results" MODIFIED="1550990521117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
+    <SUITE FILE_PATH="coverage/safe_hat$voc_annotation.coverage" NAME="voc_annotation Coverage Results" MODIFIED="1551239269338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras-yolo3" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo.py">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/run_yolo_video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="92">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="785" column="18" selection-start-line="785" selection-start-column="18" selection-end-line="785" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
-                <element signature="e#102#117#0" expanded="true" />
+                <element signature="e#20#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="98">
+              <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
               <folding>
-                <element signature="e#20#29#0" expanded="true" />
+                <element signature="e#101#111#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/voc_classes1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/keras-yolo3/data_augmentation.py">
+        <entry file="file://$PROJECT_DIR$/keras-yolo3/run_yolo_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="41">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
-                <element signature="e#20#30#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras-yolo3/kmeans.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,6 +450,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nms</find>
+      <find>thre</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,29 +470,39 @@
         <option value="$PROJECT_DIR$/keras-yolo3/cv2tool/image_process.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/keras_transfer_learning.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/xml_to_csv.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/run_yolo_image.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/detect_video.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/utils.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/run_yolo_video.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/log_utils.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/vid_to_pic.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/tools/Tools.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/convert.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/voc_annotation.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/yolov3.cfg" />
-        <option value="$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt" />
         <option value="$PROJECT_DIR$/keras-yolo3/train_self.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/train.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/test.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/yolo.py" />
-        <option value="$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/.gitignore" />
+        <option value="$PROJECT_DIR$/keras-yolo3/yolo3/model.py" />
         <option value="$PROJECT_DIR$/keras-yolo3/data_augmentation.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/kmeans.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/voc_annotation.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/yolov3.cfg" />
+        <option value="$PROJECT_DIR$/keras-yolo3/model_data/yolo_anchors.txt" />
+        <option value="$PROJECT_DIR$/keras-yolo3/tools/delet_xml.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt" />
+        <option value="$PROJECT_DIR$/keras-yolo3/tools/Tools.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/detect_image.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/model_data/voc_classes1.txt" />
+        <option value="$PROJECT_DIR$/keras-yolo3/yolo3/yolo.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/detect_video.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/tools/test.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/yolov3.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/yolo.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/run_yolo_video.py" />
+        <option value="$PROJECT_DIR$/keras-yolo3/run_yolo_image.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="26" />
+    <option name="y" value="26" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -130,6 +511,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,11 +524,22 @@
               <item name="safe_hat" type="462c0819:PsiDirectoryNode" />
               <item name="keras-yolo3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="safe_hat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safe_hat" type="462c0819:PsiDirectoryNode" />
+              <item name="keras-yolo3" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safe_hat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safe_hat" type="462c0819:PsiDirectoryNode" />
+              <item name="keras-yolo3" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,8 +550,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Pycharm\safe_hat\keras-yolo3\model_data" />
       <recent name="F:\Pycharm\safe_hat\keras-yolo3" />
+      <recent name="F:\Pycharm\safe_hat\keras-yolo3\yolo3" />
+      <recent name="F:\Pycharm\safe_hat\keras-yolo3\logs\000" />
+      <recent name="F:\Pycharm\safe_hat\keras-yolo3\model_data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Pycharm\safe_hat\keras-yolo3\tools" />
@@ -176,8 +571,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_augmentation">
-    <configuration name="data_augmentation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run_yolo_image">
+    <configuration name="detect_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="safe_hat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,7 +585,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/data_augmentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/detect_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +594,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_yolo_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="safe_hat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,7 +607,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/run_yolo_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +616,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_self" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_yolo_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="safe_hat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,7 +629,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/train_self.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/run_yolo_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +638,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vid_to_pic (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="safe_hat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +651,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/tools/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,7 +660,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yolo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yolov3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="safe_hat" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +673,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/yolo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras-yolo3/yolov3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,11 +684,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_augmentation" />
-        <item itemvalue="Python.vid_to_pic (1)" />
-        <item itemvalue="Python.yolo" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.train_self" />
+        <item itemvalue="Python.run_yolo_image" />
+        <item itemvalue="Python.run_yolo_video" />
+        <item itemvalue="Python.yolov3" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.detect_video" />
       </list>
     </recent_temporary>
   </component>
@@ -319,32 +714,47 @@
       <workItem from="1550964830386" duration="18747000" />
       <workItem from="1550998170338" duration="7632000" />
       <workItem from="1551020933834" duration="1514000" />
-      <workItem from="1551025366630" duration="1047000" />
+      <workItem from="1551025366630" duration="1353000" />
+      <workItem from="1551026829357" duration="242000" />
+      <workItem from="1551027549195" duration="1357000" />
+      <workItem from="1551053133073" duration="5424000" />
+      <workItem from="1551078243247" duration="1788000" />
+      <workItem from="1551093674782" duration="5839000" />
+      <workItem from="1551136789200" duration="1342000" />
+      <workItem from="1551147754430" duration="3509000" />
+      <workItem from="1551190785146" duration="1314000" />
+      <workItem from="1551225129763" duration="1034000" />
+      <workItem from="1551230665209" duration="10701000" />
+      <workItem from="1551252876768" duration="3438000" />
+      <workItem from="1551261257558" duration="12227000" />
+      <workItem from="1551284735128" duration="2359000" />
+      <workItem from="1551290412762" duration="6441000" />
+      <workItem from="1551319601094" duration="18780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50457000" />
+    <option name="totallyTimeSpent" value="126497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="26" y="26" width="1346" height="688" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30093312" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49627793" visible="true" weight="0.20684293" />
+      <window_info id="Structure" order="1" sideWeight="0.5037221" side_tool="true" weight="0.19742814" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32851985" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992224" weight="0.3393502" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39891696" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992224" visible="true" weight="0.3736462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39711192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007776" side_tool="true" weight="0.32851985" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007776" side_tool="true" weight="0.32851985" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32851985" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,113 +770,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/keras-yolo3/yolo.py</url>
-          <line>213</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/keras-yolo3/data_augmentation.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/keras-yolo3/data_augmentation.py</url>
-          <line>76</line>
+          <url>file://$PROJECT_DIR$/keras-yolo3/kmeans.py</url>
+          <line>98</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/keras-yolo3/data_augmentation.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/coco_classes.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/tiny_yolo_anchors.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/darknet53.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5382" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/cv2/cv2.py" />
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/keras_transfer_learning.py" />
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/datasets.py" />
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/cv2tool/image_process.py" />
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo3/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/train_labels.csv" />
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/xml_to_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/utils.py" />
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2097" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/run_yolo_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/detect_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/run_yolo_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/detect_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/log_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -498,43 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo3/model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/train.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="604" column="18" selection-start-line="604" selection-start-column="18" selection-end-line="604" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/Tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#20#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#20#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/yolo_anchors.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -548,6 +836,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/012.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/022.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/035.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/2007_train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/train.txt" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/val.txt" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/test.txt" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/050.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/049.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/trainval.txt" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/006.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/002.xml" />
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/pic/71e/113.jpg" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/train_self.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -558,113 +873,222 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo3/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo3/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/coco_classes.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/data_augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+          <folding>
+            <element signature="e#20#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/yolo_anchors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/voc_annotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="69">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.cfg">
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/darknet53.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17986">
-          <caret line="782" column="9" selection-start-line="782" selection-start-column="9" selection-end-line="782" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/012.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/022.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/035.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/2007_train.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/train.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/val.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/050.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1251" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/049.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1242" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/ImageSets/Main/trainval.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/006.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/VOCdevkit/VOC2007/Annotations/002.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/pic/71e/113.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#102#117#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="111">
+          <caret line="545" column="7" selection-start-line="545" selection-start-column="7" selection-end-line="545" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/vid_to_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="156">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding>
             <element signature="e#20#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/../RL/venv/Lib/site-packages/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="124">
+          <caret line="1816" selection-start-line="1816" selection-end-line="1816" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras-yolo3/data_augmentation.py">
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/delet_xml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="69">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo_anchors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/anaconda/Lib/site-packages/numpy/lib/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/Tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
-            <element signature="e#20#30#0" expanded="true" />
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RL/venv/Lib/site-packages/keras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/voc_classes1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="785" column="18" selection-start-line="785" selection-start-column="18" selection-end-line="785" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo3/yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#102#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/detect_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/detect_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/model_data/voc_classes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/tools/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#20#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/run_yolo_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/yolov3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+          <folding>
+            <element signature="e#101#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras-yolo3/run_yolo_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

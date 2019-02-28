@@ -1,0 +1,26 @@
+<annotation>
+	<folder>77</folder>
+	<filename>877.jpg</filename>
+	<path>F:\pic\pictures\77\877.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>544</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>680</xmin>
+			<ymin>42</ymin>
+			<xmax>735</xmax>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+</annotation>

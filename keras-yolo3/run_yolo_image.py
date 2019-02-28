@@ -1,6 +1,6 @@
 import os
 from detect_image import detect_image
-from yolo import YOLO
+from yolov3 import YOLO
 
 current_path = os.path.dirname(os.path.abspath(__file__))
 path_suffix = '/apps'
@@ -17,7 +17,8 @@ if __name__ == '__main__':
     print("Image detection mode")
     # input_img_path = input('Input image filename:')
     # output_img_path = input('Output image filename:')
-    input_img_path = 'F:\\pic\\motor\\page1_2.jpg'
-    output_img_path = 'F:\\pic\\fc1af672ab.jpg'
+    file_name ='10'
+    input_img_path = 'F:\\pic\\test\\%s.jpg'%file_name
+    output_img_path = 'F:\\pic\\save\%s.jpg'%file_name
 
     detect_image(YOLO(), input_img_path, output_img_path)

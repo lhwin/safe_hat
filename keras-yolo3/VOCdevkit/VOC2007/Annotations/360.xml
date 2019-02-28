@@ -1,0 +1,26 @@
+<annotation>
+	<folder>72</folder>
+	<filename>360.jpg</filename>
+	<path>F:\pic\pictures\72\360.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>368</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>58</xmin>
+			<ymin>212</ymin>
+			<xmax>118</xmax>
+			<ymax>280</ymax>
+		</bndbox>
+	</object>
+</annotation>

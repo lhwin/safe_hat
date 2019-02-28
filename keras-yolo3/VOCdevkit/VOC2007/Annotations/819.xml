@@ -1,0 +1,26 @@
+<annotation>
+	<folder>76</folder>
+	<filename>819.jpg</filename>
+	<path>F:\pic\pictures\76\819.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>544</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>374</xmin>
+			<ymin>48</ymin>
+			<xmax>505</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+</annotation>

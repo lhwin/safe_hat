@@ -1,7 +1,7 @@
 <annotation>
-	<folder>zhuaqu</folder>
+	<folder>JPEGImages</folder>
 	<filename>201.jpg</filename>
-	<path>F:\pic\zhuaqu\201.jpg</path>
+	<path>F:\pic\pictures\old_scheme\VOCdevkit\VOC2007\JPEGImages\201.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>288</xmin>
-			<ymin>14</ymin>
-			<xmax>467</xmax>
-			<ymax>223</ymax>
+			<xmin>293</xmin>
+			<ymin>15</ymin>
+			<xmax>468</xmax>
+			<ymax>214</ymax>
 		</bndbox>
 	</object>
 </annotation>

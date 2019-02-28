@@ -1,7 +1,7 @@
 <annotation>
-	<folder>71e</folder>
+	<folder>JPEGImages</folder>
 	<filename>047.jpg</filename>
-	<path>F:\pic\71e\047.jpg</path>
+	<path>F:\pic\pictures\old_scheme\VOCdevkit\VOC2007\JPEGImages\047.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,38 +12,38 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>no_hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>62</xmin>
-			<ymin>171</ymin>
+			<xmin>64</xmin>
+			<ymin>173</ymin>
 			<xmax>108</xmax>
-			<ymax>223</ymax>
+			<ymax>224</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>153</xmin>
-			<ymin>218</ymin>
-			<xmax>183</xmax>
-			<ymax>252</ymax>
+			<xmin>151</xmin>
+			<ymin>217</ymin>
+			<xmax>180</xmax>
+			<ymax>246</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>hat</name>
+		<name>head</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>262</xmin>
-			<ymin>122</ymin>
-			<xmax>294</xmax>
+			<xmin>260</xmin>
+			<ymin>125</ymin>
+			<xmax>285</xmax>
 			<ymax>179</ymax>
 		</bndbox>
 	</object>

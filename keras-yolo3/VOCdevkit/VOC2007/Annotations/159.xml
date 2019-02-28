@@ -1,7 +1,7 @@
 <annotation>
-	<folder>process</folder>
+	<folder>71e</folder>
 	<filename>159.jpg</filename>
-	<path>F:\pic\process\159.jpg</path>
+	<path>F:\pic\71e\159.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,9 +18,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>187</xmin>
-			<ymin>245</ymin>
-			<xmax>218</xmax>
-			<ymax>277</ymax>
+			<ymin>247</ymin>
+			<xmax>215</xmax>
+			<ymax>276</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -2,7 +2,7 @@ from collections import defaultdict
 import cv2
 import os
 from timeit import default_timer as timer
-
+import time
 import numpy as np
 from PIL import Image
 
@@ -48,7 +48,8 @@ def detect_video(yolo, video_path, output_path=""):
         cv2.imshow("result", result)
         if isOutput:
             out.write(result)
-            save_image_to_file(output_path, '%d_%s' % (curr_fps, str(accum_time)), image)
+            t = time.time()
+            save_image_to_file(output_path, '%s' % (str(t)), image)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     yolo.close_session()

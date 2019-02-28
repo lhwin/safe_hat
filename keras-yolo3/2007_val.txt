@@ -1,5 +1,16 @@
-F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/059.jpg 92,191,141,241,1 224,199,274,239,1
-F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/068.jpg 26,31,73,110,0 80,71,126,130,0 172,100,220,153,0
-F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/105.jpg 86,70,140,132,0 1,154,15,197,0
-F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/107.jpg 1,149,36,189,0 147,35,213,108,0
-F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/122.jpg 152,92,210,141,0 1,125,29,167,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/047.jpg 64,173,108,224,1 151,217,181,236,1 265,125,285,160,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/145.jpg 213,197,254,233,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/213.jpg 302,10,408,125,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/224.jpg 318,9,460,207,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/299.jpg 362,130,402,219,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/360.jpg 58,212,117,249,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/369.jpg 113,163,190,220,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/371.jpg 245,367,317,427,0 315,223,368,288,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/381.jpg 238,3,368,64,0
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/602.jpg 14,108,162,306,1 140,16,276,198,1 342,108,446,282,1 432,112,514,278,1 500,96,586,248,1 608,120,666,226,1 688,124,754,236,1 790,102,852,208,1 846,146,898,248,1 920,120,986,228,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/632.jpg 137,94,293,286,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/676.jpg 148,31,376,209,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/678.jpg 8,131,174,311,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/741.jpg 788,313,896,467,1 967,277,1098,416,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/808.jpg 78,203,132,246,1 177,225,207,260,1 205,206,227,229,1 16,228,46,276,1
+F:\Pycharm\safe_hat\keras-yolo3/VOCdevkit/VOC2007/JPEGImages/815.jpg 60,169,126,228,1 274,186,322,228,1 353,190,408,265,1

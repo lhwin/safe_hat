@@ -5,6 +5,7 @@ import numpy as np
 import os
 # pdb仅仅用于调试，不用管它
 import pdb
+import xml.etree.cElementTree as ET
 
 #旋转图像的函数
 def rotate_image(src, angle, scale=1.):
@@ -60,9 +61,9 @@ def rotate_xml(src, xmin, ymin, xmax, ymax, angle, scale=1.):
     return rx, ry, rw, rh
 
 # 使图像旋转60,90,120,150,210,240,300度
-for angle in (60, 90, 120, 150, 210, 240, 300):
+for angle in (15,45,180):
     # 指向图片所在的文件夹
-    for i in os.listdir("F:\Pycharm\safe_hat\keras-yolo3\VOCdevkit\VOC2007\JPEGImages"):
+    for i in os.listdir("F:\pic\data_aug\mix"):
         # 分离文件名与后缀
         a, b = os.path.splitext(i)
         # 如果后缀名是“.jpg”就旋转图像
@@ -71,11 +72,11 @@ for angle in (60, 90, 120, 150, 210, 240, 300):
             img = cv2.imread(img_path)
             rotated_img = rotate_image(img, angle)
             # 写入图像
-            cv2.imwrite("F:\\pic\\data_aug\\img\\" + a + "_" + str(angle) +"d.jpg", rotated_img)
+            cv2.imwrite("F:\\pic\\data_aug\\VOCdevkit\\VOC2007\\JPEGImages\\" + a + "_" + str(angle) +".jpg", rotated_img)
             print("log: [%sd] %s is processed." % (angle, i))
         else:
-            xml_path = os.path.join("F:\\pic\\data_aug\\mix", i)
-            img_path = "F:\Pycharm\safe_hat\keras-yolo3\VOCdevkit\VOC2007\JPEGImages" + a + ".jpg"
+            xml_path = os.path.join("F:\\pic\\data_aug\\VOCdevkit\\VOC2007\\Annotations", i)
+            img_path = "F:\\pic\\data_aug\\VOCdevkit\\VOC2007\\JPEGImages\\" + a + ".jpg"
             src = cv2.imread(img_path)
             tree = ET.parse(xml_path)
             root = tree.getroot()
@@ -92,5 +93,5 @@ for angle in (60, 90, 120, 150, 210, 240, 300):
                 box.find('ymax').text = str(y+h)
                 box.set('updated', 'yes')
             # 写入新的xml
-            tree.write("F:\\pic\\data_aug\\xml\\" + a + "_" + str(angle) +".xml")
+                tree.write("F:\\pic\\data_aug\\VOCdevkit\\VOC2007\\Annotations\\" + a + "_" + str(angle) +".xml")
             print("[%s] %s is processed." % (angle, i))

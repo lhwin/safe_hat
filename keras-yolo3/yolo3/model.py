@@ -5,7 +5,7 @@ from functools import wraps
 import numpy as np
 import tensorflow as tf
 from keras import backend as K
-from keras.layers import Conv2D, Add, ZeroPadding2D, UpSampling2D, Concatenate, MaxPooling2D
+from keras.layers import Conv2D, Add, ZeroPadding2D, UpSampling2D, Concatenate, MaxPooling2D,Dropout
 from keras.layers.advanced_activations import LeakyReLU
 from keras.layers.normalization import BatchNormalization
 from keras.models import Model
@@ -75,12 +75,15 @@ def yolo_body(inputs, num_anchors, num_classes):
     x = compose(
             DarknetConv2D_BN_Leaky(256, (1,1)),
             UpSampling2D(2))(x)
+    x = Dropout(0.7)(x)
     x = Concatenate()([x,darknet.layers[152].output])
+    x = Dropout(0.7)(x)
     x, y2 = make_last_layers(x, 256, num_anchors*(num_classes+5))
 
     x = compose(
             DarknetConv2D_BN_Leaky(128, (1,1)),
             UpSampling2D(2))(x)
+    x = Dropout(0.7)(x)
     x = Concatenate()([x,darknet.layers[92].output])
     x, y3 = make_last_layers(x, 128, num_anchors*(num_classes+5))
 
